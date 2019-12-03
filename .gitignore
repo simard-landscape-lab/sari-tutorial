@@ -68,3 +68,6 @@ __pycache__/
 
 # Pickle Data
 *.pkl
+
+# Data
+**/_data/
