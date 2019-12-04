@@ -19,4 +19,6 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`.
 
 # Acknowledgements
 
+We gratefully and humbly acknowledge JAXA for the use of a coherence image over Gabon generated using ISCE2.
+
 A portion of this research was performed at the Jet Propulsion Laboratory, California Institute of Technology. Copyright 2019 California Institute of Technology. US Government Support Acknowledged.

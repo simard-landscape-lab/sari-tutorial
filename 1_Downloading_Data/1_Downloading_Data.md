@@ -1,6 +1,6 @@
 # Downloading Data
 
-*All the data in this tutorial has been downloaded for you. This page is a reference of some websites/open source tools/etc.* 
+*All the data in this tutorial has been downloaded for you. This page is a reference of some websites/open source tools/etc. We gratefully and humbly acknowledge JAXA for the use of a coherence image over Gabon generated using ISCE2.* 
 
 We will reference image repositories throughout the tutorial wherever applicable. In this tutorial, we concentrate on images from the L-band SAR sensor from [ALOS/PALSAR](https://global.jaxa.jp/projects/sat/alos/). L-band sensors are popular for forest analysis due to their long wavelengths and ability to penetrate canopy cover for additional information. ALOS-1 was a satellite that was active from 2007-2010 that had the L-band PALSAR-1 sensor and ALOS-2 is its successor with the PALSAR-2 sensor. There are numerous other satellite SAR sensors including Sentinel-1 (C-band) and UAVSAR (airborne L-band).
 
@@ -19,6 +19,14 @@ All the products below are for [backscatter](http://ceos.org/document_management
 		- To do one-time processing of a site, you have to contact the ASF - you have monthly quotas.
 
 2. JAXA [Mosaics](https://www.eorc.jaxa.jp/ALOS/en/palsar_fnf/fnf_index.htm). You have to register first and then downloading is free. This provides global annual RTC mosaics at 25 m scale! *Warning*: known geocoding issues that appear has pixel/half-pixel shifts from year to year or when comparing to other SAR images.
+
+## ALOS-2
+
+This is currently not open - we do not provide raw data that you would download - only the coherence product obtained via ISCE2.
+
+However, there is a recently announced [agreement](https://www.earthobservations.org/article.php?id=392) so that this data can be made public. 
+
+I want to emphasize how important (and exciting, at least for SAR) this is for forest monitoring and biomass analysis. L-band is extremely powerful for forest studies because it is able to penetrate the canopy. Additionally, the short repeat pass time of ALOS-2 (14 days!) makes a lot of the interferometric products equally interesting and valuable for large and insightful studies, even with zero-spatial baseline. We are truly grateful to JAXA for providing Simard's lab access to this data for large regional studies.
 
 ## UAVSAR
 
