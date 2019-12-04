@@ -71,3 +71,6 @@ __pycache__/
 
 # Data
 **/_data/
+
+# Ignore pdf Files
+*.pdf
