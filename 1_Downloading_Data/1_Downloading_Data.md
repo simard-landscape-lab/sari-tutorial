@@ -24,7 +24,7 @@ All the products below are for [backscatter](http://ceos.org/document_management
 
 This is currently not open - we do not provide raw data that you would download - only the coherence product obtained via ISCE2.
 
-However, there is a recently announced [agreement](https://www.earthobservations.org/article.php?id=392) so that this data can be made public. 
+However, there is a recently announced [agreement](https://www.earthobservations.org/article.php?id=392) so that a large portion of the radar data can be made public. 
 
 I want to emphasize how important (and exciting, at least for SAR) this is for forest monitoring and biomass analysis. L-band is extremely powerful for forest studies because it is able to penetrate the canopy. Additionally, the short repeat pass time of ALOS-2 (14 days!) makes a lot of the interferometric products equally interesting and valuable for large and insightful studies, even with zero-spatial baseline. We are truly grateful to JAXA for providing Simard's lab access to this data for large regional studies.
 
