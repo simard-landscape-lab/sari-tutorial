@@ -6,18 +6,20 @@ These tutorials are educational materials for a 3-hour tutorial at the above con
 
 ## Installation Instructions
 
-These are the routes we took to install this successfully on our computer - of course, the user is invited to install how they wish.
+These are the routes we took to install this successfully various local machines - of course, the user is invited to install how they wish and will need to be updated as distributions change (last updated: December 2019).
 
 ### Mac
 
-I tested this on Mac 10.14 in December 2019 using the anaconda [distribution](https://www.anaconda.com/distribution/).
+I tested this on Mac 10.14 using the anaconda distribution. Download [here](https://www.anaconda.com/distribution/) and follow the instructions. After you have successfully downloaded python, do the following:
 
 1. Download the repository.
 2. Open the [terminal](https://support.apple.com/guide/terminal/welcome/mac).
-3. Change the working directory of the terminal session to this repository.
+3. Change the working directory of the terminal session to the downloaded repository.
 4. Create a virtual environment using conda via: 
 
 	`conda create --name sari_tutorial python=3.7`
+	
+	Make sure to hit `y` to confirm the listed packages that will be downloaded for this environment.
 
 5. Activate the virtual environment: 
 
@@ -36,13 +38,16 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`.
 
 ### Windows
 
-I tested this on Windows 10 in December 2019 using the anaconda [distribution](https://www.anaconda.com/distribution/).
+I tested this on Windows 10 using the anaconda distribution. Download [here](https://www.anaconda.com/distribution/) and follow the instructions. After you have successfully downloaded python, do the following:
 
 1. Download repository.
-2. Open the [anaconda prompt application](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-prompt-win).
+2. Open the [anaconda prompt application](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-prompt-win), which will have been downloaded if you used the Anaconda distribution above.
 3. Change the working directory of the prompt session to this repository.
-4. Create virtual environment with conda: 
+4. Create a virtual environment with conda: 
+	
 	`conda create --name sari_tutorial python=3.7`
+	
+	Make sure to hit `y` to confirm the listed packages that will be downloaded for this environment.
 
 4. Activate the virtual environment: 
 	
@@ -60,8 +65,16 @@ I tested this on Windows 10 in December 2019 using the anaconda [distribution](h
 	
 	`python -m ipykernel install --user --name sari_tutorial`
 
-When running notebooks, make sure you are using the kernel `sari_tutorial`.
 
+## Usage with Jupyter
+
+If you installed python using the Anaconda distribution, `jupyter` is already installed!
+
+Using the terminal (for Mac) or Anaconda prompt (for Windows) - navigate to the current working directory of this repository and launch a jupyter notebook with the command: `jupyter-notebook`. Your internet browser should open and you can now open `*.ipynb` files in each of the training modules e.g. `2_GIS/2_GIS.ipynb`. There are many instructional videos on youtube and elsewhere on how to use jupyter-notebooks including this short [one](https://www.codecademy.com/articles/how-to-use-jupyter-notebooks) from code-academy.
+
+When running notebooks, make sure you are using the kernel `sari_tutorial`, which will be an available kernel if you followed the installation instructions above. You can select the kernel `sari_tutorial` in the menu as illustrated in the screenshot below (`sari_tutorial` will be listed not just `python2`).
+
+![screenshot](https://i.stack.imgur.com/F0Cbi.png)
 
 # Acknowledgements
 

@@ -6,7 +6,7 @@ pandas
 rasterio
 scikit-image
 scikit-learn
-scipy>
+scipy
 Shapely
 six
 tqdm
