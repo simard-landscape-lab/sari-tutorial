@@ -1,0 +1,14 @@
+affine
+Fiona
+geopandas
+numpy
+pandas
+rasterio
+scikit-image
+scikit-learn
+scipy>
+Shapely
+six
+tqdm
+jupyter
+seaborn
