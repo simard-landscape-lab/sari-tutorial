@@ -72,7 +72,7 @@ If you installed python using the Anaconda distribution, `jupyter` is already in
 
 Using the terminal (for Mac) or Anaconda prompt (for Windows) - navigate to the current working directory of this repository and launch a jupyter notebook with the command: `jupyter-notebook`. Your internet browser should open and you can now open `*.ipynb` files in each of the training modules e.g. `2_GIS/2_GIS.ipynb`. There are many instructional videos on youtube and elsewhere on how to use jupyter-notebooks including this short [one](https://www.codecademy.com/articles/how-to-use-jupyter-notebooks) from code-academy.
 
-When running notebooks, make sure you are using the kernel `sari_tutorial`, which will be an available kernel if you followed the installation instructions above. You can select the kernel `sari_tutorial` in the menu as illustrated in the screenshot below (`sari_tutorial` will be listed not just `python2`).
+When running notebooks, make sure you are using the kernel `sari_tutorial`, which will be an available kernel if you followed the installation instructions above. You can select the kernel `sari_tutorial` in the menu as illustrated in the screenshot below (`sari_tutorial` will be listed not just `Python 2`).
 
 ![screenshot](https://i.stack.imgur.com/F0Cbi.png)
 
