@@ -2,7 +2,7 @@
 
 Conference [link](http://sari.umd.edu/meetings/international-regional-science-training).
 
-These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and material that is taught in universities and can be readily found in textbooks.
+These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible.
 
 ## Installation Instructions
 
@@ -19,7 +19,7 @@ I tested this on Mac 10.14 using the anaconda distribution. Download [here](http
 
 	`conda create --name sari_tutorial python=3.7`
 	
-	Make sure to hit `y` to confirm the listed packages that will be downloaded for this environment.
+	Make sure to hit `y` to confirm that the listed packages can be downloaded for this environment.
 
 5. Activate the virtual environment: 
 
@@ -47,7 +47,7 @@ I tested this on Windows 10 using the anaconda distribution. Download [here](htt
 	
 	`conda create --name sari_tutorial python=3.7`
 	
-	Make sure to hit `y` to confirm the listed packages that will be downloaded for this environment.
+	Make sure to hit `y` to confirm that the listed packages can be downloaded for this environment.
 
 4. Activate the virtual environment: 
 	
@@ -75,9 +75,12 @@ Using the terminal (for Mac) or Anaconda prompt (for Windows) - navigate to the 
 When running notebooks, make sure you are using the kernel `sari_tutorial`, which will be an available kernel if you followed the installation instructions above. You can select the kernel `sari_tutorial` in the menu as illustrated in the screenshot below (`sari_tutorial` will be listed in the menu where `Python 2` is).
 
 ![screenshot](https://i.stack.imgur.com/F0Cbi.png)
+*The image is from Stackoverflow*.
 
 # Acknowledgements
 
 We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2.
+
+We are grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
 
 A portion of this research was performed at the Jet Propulsion Laboratory, California Institute of Technology. Copyright 2019 California Institute of Technology. US Government Support Acknowledged.
