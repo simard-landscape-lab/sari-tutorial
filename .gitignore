@@ -75,6 +75,9 @@ __pycache__/
 # Ignore pdf Files
 *.pdf
 
+# Ignore title page
+_title_page/
+
 # Ignore Scripts
 Make PDFs.ipynb
 Copy Notebooks without Answers.ipynb
