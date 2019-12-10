@@ -1,5 +1,8 @@
 # SARI-Tutorial
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmarshak/sari-tutorial/master)
+
+
 Conference [link](http://sari.umd.edu/meetings/international-regional-science-training).
 
 These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible.
