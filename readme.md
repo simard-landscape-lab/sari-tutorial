@@ -68,6 +68,11 @@ I tested this on Windows 10 using the anaconda distribution. Download [here](htt
 	
 	`python -m ipykernel install --user --name sari_tutorial`
 
+## Usage with QGIS
+
+QGIS is an open-source viewer for geo-referenced rasters.
+
+Please download the application [here](https://www.qgis.org/en/site/) and follow the instructions found therein. Once downloaded, drag one of the tifs in the `data` folder of this repository and explore. We will frequently save products as geo-referenced rasters so viewing them in detail is very important.
 
 ## Usage with Jupyter
 
