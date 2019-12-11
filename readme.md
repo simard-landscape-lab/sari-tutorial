@@ -9,11 +9,11 @@ These tutorials are educational materials for a 3-hour tutorial at the above con
 
 ## Installation Instructions
 
-These are the routes we took to install this successfully various local machines - of course, the user is invited to install how they wish and will need to be updated as distributions change (last updated: December 2019).
+These are the routes we took to get this tutorial working on a Mac and Windows machine. Of course, these are but suggestions and the user is invited to install the various requirements as they wish. Further, these installations will need to be updated as distributions change (last updated: December 2019).
 
 ### Mac
 
-I tested this on Mac 10.14 using the anaconda distribution. Download [here](https://www.anaconda.com/distribution/) and follow the instructions. After you have successfully downloaded python, do the following:
+I tested this on Mac 10.14 using the anaconda distribution. Download the anaconda distribution [here](https://www.anaconda.com/distribution/) and follow the instructions (we selected the default options when prompted during installation). After you have successfully downloaded python, do the following:
 
 1. Download the repository.
 2. Open the [terminal](https://support.apple.com/guide/terminal/welcome/mac).
@@ -41,7 +41,7 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`.
 
 ### Windows
 
-I tested this on Windows 10 using the anaconda distribution. Download [here](https://www.anaconda.com/distribution/) and follow the instructions. After you have successfully downloaded python, do the following:
+I tested this on Windows 10 using the anaconda distribution. Download the anaconda distribution [here](https://www.anaconda.com/distribution/) and follow the instructions (we selected the default options when prompted during installation). After you have successfully downloaded python, do the following:
 
 1. Download repository.
 2. Open the [anaconda prompt application](https://docs.anaconda.com/anaconda/user-guide/getting-started/#open-prompt-win), which will have been downloaded if you used the Anaconda distribution above.
