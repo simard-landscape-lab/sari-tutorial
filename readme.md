@@ -3,7 +3,7 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmarshak/sari-tutorial/master)
 
 
-This tutorial was given at Land Cover and Land Use Change training [conference](http://sari.umd.edu/meetings/international-regional-science-training) associated with NASA's [LCLUC program](https://lcluc.umd.edu/). This tutorial was written by Charlie Marshak and supervised by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en).
+This tutorial was given at [SARI](http://sari.umd.edu/) training [conference](http://sari.umd.edu/meetings/international-regional-science-training) associated with NASA's [LCLUC program](https://lcluc.umd.edu/). This tutorial was written by Charlie Marshak and supervised by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en).
 
 These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible. There are exercises, most of which are very minor modifications of the demonstrations.
 
@@ -88,7 +88,9 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`, whic
 
 # Acknowledgements
 
-This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). We are grateful for the input from and helpful conversations with [Michael Denbina](https://www.researchgate.net/profile/Michael_Denbina), [Tien-Hao Liao](https://scienceandtechnology.jpl.nasa.gov/tien-hao-liao), and Neda Kasraee. We are grateful to the conference organizers and the [LCLUC program](https://lcluc.umd.edu/) for which made this tutorial possible.
+This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). 
+
+This tutorial was for the 2019 SARI training [conference](http://sari.umd.edu/meetings/international-regional-science-training) held at Prince of Songkla University, Phuket Campus. We are grateful to the conference organizers, in particular [Krishna Vadrevu](https://geog.umd.edu/facultyprofile/vadrevu/krishna), the [SARI program](http://sari.umd.edu/), and the [LCLUC program](https://lcluc.umd.edu/) for which made this tutorial possible. We are grateful for the input from and helpful conversations with [Michael Denbina](https://www.researchgate.net/profile/Michael_Denbina), [Tien-Hao Liao](https://scienceandtechnology.jpl.nasa.gov/tien-hao-liao), and Neda Kasraee. 
 
 We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2. We are also grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
 
