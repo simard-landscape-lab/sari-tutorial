@@ -88,7 +88,7 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`, whic
 
 # Acknowledgements
 
-This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). We are grateful for the input from and helpful conversations with Michael Denbina, Tien-Hao Liao, and Neda Kasraee. We are grateful to the conference organizers and the [LCLUC program](https://lcluc.umd.edu/) for which made this tutorial possible.
+This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). We are grateful for the input from and helpful conversations with [Michael Denbina](https://www.researchgate.net/profile/Michael_Denbina), [Tien-Hao Liao](https://scienceandtechnology.jpl.nasa.gov/tien-hao-liao), and Neda Kasraee. We are grateful to the conference organizers and the [LCLUC program](https://lcluc.umd.edu/) for which made this tutorial possible.
 
 We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2. We are also grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
 
