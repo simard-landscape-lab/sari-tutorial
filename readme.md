@@ -3,9 +3,10 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmarshak/sari-tutorial/master)
 
 
-Conference [link](http://sari.umd.edu/meetings/international-regional-science-training).
+This tutorial was given at Land Cover and Land Use Change training [conference](http://sari.umd.edu/meetings/international-regional-science-training) associated with NASA's [LCLUC program](https://lcluc.umd.edu/). This tutorial was written by Charlie Marshak and supervised by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en).
 
-These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible.
+These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible. There are exercises, most of which are very minor modifications of the demonstrations.
+
 
 ## Installation Instructions
 
@@ -87,8 +88,8 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`, whic
 
 # Acknowledgements
 
-We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2.
+This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). We are grateful for the input from and helpful conversations with Michael Denbina, Tien-Hao Liao, and Neda Kasraee. We are grateful to the conference organizers and the [LCLUC program](https://lcluc.umd.edu/) for which made this tutorial possible.
 
-We are grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
+We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2. We are also grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
 
 A portion of this research was performed at the Jet Propulsion Laboratory, California Institute of Technology. Copyright 2019 California Institute of Technology. US Government Support Acknowledged.
