@@ -47,13 +47,18 @@ def rasterize_shapes_to_array(shapes: list,
 
     """
     Rasterizers a list of shapes and burns them into array with given attributes.
+
+    Nodata from profile will be used as fill value.
     """
-    out_arr = np.zeros((profile['height'], profile['width']))
+    out_arr = np.ones((profile['height'], profile['width']), dtype=profile['dtype'])
+    fill_value = profile['nodata']
+    out_arr *= fill_value
 
     # this is where we create a generator of geom, value pairs to use in rasterizing
     shapes = [(geom, value) for geom, value in zip(shapes, attributes)]
     burned = features.rasterize(shapes=shapes,
                                 out=out_arr,
+                                fill=fill_value,
                                 transform=profile['transform'],
                                 all_touched=all_touched)
 
