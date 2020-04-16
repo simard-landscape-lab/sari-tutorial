@@ -66,12 +66,8 @@ I tested this on Windows 10 using the anaconda distribution. Download the anacon
 6.  Install window requirements with conda: 
 	
 	`conda install -c conda-forge --yes --file requirements_windows.txt`
-
-7. Install geopy with `pip`:
 	
-	`pip install geopy`
-	
-8. Create a new jupyter kernel: 
+7. Create a new jupyter kernel: 
 	
 	`python -m ipykernel install --user --name sari_tutorial`
 
