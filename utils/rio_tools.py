@@ -43,7 +43,8 @@ def polygonize_array_to_shapefile(arr, profile, shape_file_dir, label_name='labe
 def rasterize_shapes_to_array(shapes: list,
                               attributes: list,
                               profile: dict,
-                              all_touched=False):
+                              all_touched=False,
+                              fill_value=0):
 
     """
     Rasterizers a list of shapes and burns them into array with given attributes.
@@ -51,8 +52,8 @@ def rasterize_shapes_to_array(shapes: list,
     Nodata from profile will be used as fill value.
     """
     out_arr = np.ones((profile['height'], profile['width']), dtype=profile['dtype'])
-    fill_value = profile['nodata']
-    out_arr *= fill_value
+    out_arr = out_arr * fill_value
+
 
     # this is where we create a generator of geom, value pairs to use in rasterizing
     shapes = [(geom, value) for geom, value in zip(shapes, attributes)]
