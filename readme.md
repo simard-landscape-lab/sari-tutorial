@@ -3,14 +3,20 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmarshak/sari-tutorial/master)
 
 
-This tutorial was given at [SARI](http://sari.umd.edu/) training [conference](http://sari.umd.edu/meetings/international-regional-science-training) associated with NASA's [LCLUC program](https://lcluc.umd.edu/). This tutorial was written by Charlie Marshak and supervised by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en).
+These tutorial materials are for [SARI](http://sari.umd.edu/) training and webinars associated with NASA's [LCLUC program](https://lcluc.umd.edu/). These tutorials are designed by Charlie Marshak and [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en).
 
-These tutorials are educational materials for a 3-hour tutorial at the above conference. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible. There are exercises, most of which are very minor modifications of the demonstrations.
+These tutorials are educational materials for SARI conference and webinars. The material is collected across public data and open source software. Much of the content can be readily found in university textbooks and is taken directly from open source software documentation and online forums, which we acknowledge wherever possible. 
+
+## Update
+
+We updated this repository so that it reflects the webinar hosted April 16, 2020.
+
+The Phuket training can still be found under the branch `sari-phuket-2019`.
 
 
 ## Installation Instructions
 
-These are the routes we took to get this tutorial working on a Mac and Windows machine. Of course, these are but suggestions and the user is invited to install the various requirements as they wish. Further, these installations will need to be updated as distributions change (last updated: December 2019).
+These are the routes we took to get this tutorial working on a Mac and Windows machine. Of course, these are but suggestions and the user is invited to install the various requirements as they wish. Further, these installations will need to be updated as distributions change.
 
 ### Mac
 
@@ -88,14 +94,14 @@ When running notebooks, make sure you are using the kernel `sari_tutorial`, whic
 
 # Acknowledgements
 
-This tutorial was written by Charlie Marshak and supervised closely by [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). 
+This tutorial was written by Charlie Marshak and [Marc Simard](https://scholar.google.com/citations?user=JQJF1wgAAAAJ&hl=en). 
 
-This tutorial was for the 2019 SARI training [conference](http://sari.umd.edu/meetings/international-regional-science-training) held at Prince of Songkla University, Phuket Campus. We are grateful to the conference organizers [Krishna Vadrevu](https://geog.umd.edu/facultyprofile/vadrevu/krishna) and [Werapong Koedsin](http://werapong-g.space.psu.ac.th/). We also thank the [SARI](http://sari.umd.edu/) and [LCLUC](https://lcluc.umd.edu/) programs, especially [Garik Gutman](https://lcluc.umd.edu/people/garik-gutman), making such trainings possible. We are grateful for the input from and helpful conversations with [Michael Denbina](https://www.researchgate.net/profile/Michael_Denbina), [Tien-Hao Liao](https://scienceandtechnology.jpl.nasa.gov/tien-hao-liao), and Neda Kasraee. 
+We are grateful to the SARI researchers [Krishna Vadrevu](https://geog.umd.edu/facultyprofile/vadrevu/krishna) and [Werapong Koedsin](http://werapong-g.space.psu.ac.th/). We also thank the [SARI](http://sari.umd.edu/) and [LCLUC](https://lcluc.umd.edu/) programs, especially [Garik Gutman](https://lcluc.umd.edu/people/garik-gutman), making such trainings/webinars possible. We are grateful for the input from and helpful conversations with [Michael Denbina](https://www.researchgate.net/profile/Michael_Denbina), [Tien-Hao Liao](https://scienceandtechnology.jpl.nasa.gov/tien-hao-liao), and Neda Kasraee. 
 
-We gratefully and humbly acknowledge JAXA for the use of ALOS-2 data to generate a coherence image over Mondah, Gabon generated using ISCE2. We are also grateful to the ASF for providing easy access to ALOS-1 radiometrically and terrain corrected tiles over Mondah and Ko Panyi.
+We gratefully and humbly acknowledge JAXA for the use of ALOS-1/-2 data in addition to ASF for providing easy access to high resolution ALOS-1 data.
 
 A portion of this research was performed at the Jet Propulsion Laboratory, California Institute of Technology. 
 
-Copyright 2019 by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology.
+Copyright 2020 by the California Institute of Technology. ALL RIGHTS RESERVED. United States Government Sponsorship acknowledged. Any commercial use must be negotiated with the Office of Technology Transfer at the California Institute of Technology.
 
 This software may be subject to U.S. export control laws. By accepting this software, the user agrees to comply with all applicable U.S. export laws and regulations. User has the responsibility to obtain export licenses, or other export authority as may be required before exporting such information to foreign countries or providing access to foreign persons.
