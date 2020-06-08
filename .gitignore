@@ -68,6 +68,9 @@ __pycache__/
 !data/jaxa_mosaics_cropped/**/*.tif
 !data/GMW_2007_v2_cropped_extent/*
 
+# From new branch
+data/mangrove_extent.tif
+
 # Log files
 *.log
 
