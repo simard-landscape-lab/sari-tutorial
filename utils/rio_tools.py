@@ -11,11 +11,8 @@ import pyproj
 
 def polygonize_array_to_shapefile(arr, profile, shape_file_dir, label_name='label', mask=None):
 
-    if mask is None:
-        mask = np.ones(arr.shape).astype(bool)
-    else:
-        # mask is data mask
-        mask = ~mask.astype(bool)
+    if mask is not None:
+        mask = ~(mask.astype(bool))
 
     dtype = str(arr.dtype)
     if 'int' in dtype or 'bool' in dtype:

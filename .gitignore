@@ -23,6 +23,9 @@ _deprecated/
 # pytest files
 .pytest_cache/
 
+# Where we store the pdf for tutorial
+_pdfs/
+
 # Jupyter files
 *.ipynb_checkpoints
 
