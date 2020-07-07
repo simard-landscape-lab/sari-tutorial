@@ -63,13 +63,10 @@ __pycache__/
 *.wld
 *.geojson
 
+# Allow tifs in data directories
+!**/data/*.tif
 # Allow labeled data to be added
-!data/labels/*
-!data/jaxa_mosaics_cropped/**/*.tif
-!data/GMW_2007_v2_cropped_extent/*
-
-# From new branch
-data/mangrove_extent.tif
+!data/labeled_data/*
 
 # Log files
 *.log
